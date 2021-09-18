@@ -1,0 +1,377 @@
+.app{
+    width: 100px;
+    height: 100px;
+
+}
+
+.interface{
+    width: 500px;
+    height: 500px;
+
+}
+
+.interface {}
+
+.background{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interface h1{
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+}
+
+.window1{
+    border: 1px solid #DBDBDB;
+    height: 380px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.window_el{
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+
+.login{
+    width: 268px;
+    height: 38px;
+    border: 1px solid #DBDBDB;
+    align-self:center;
+    background: #FAFAFA;
+    margin-bottom: 5px;
+    
+}
+
+.icon{
+    
+}
+
+.password{
+    width: 268px;
+    height: 38px;
+    border: 1px solid #DBDBDB;
+    align-self: center;
+        position: relative;
+    bottom: 10px;
+    background: #FAFAFA;
+    
+}
+
+.sign_in{
+     width: 268px;
+    height: 30px;
+    background: #B2DFFC;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.dividing_line{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.line1{
+    border: 1px solid #DBDBDB;
+    height: 0.1px;
+    width: 101px;
+    position: relative;
+    top: 10px;
+}
+
+.or{
+    font-family: 'Grand Hotel', cursive;
+    color: #DBDBDB;
+}
+
+.line2{
+    border: 1px solid #DBDBDB;
+    height: 0.1px;
+    width: 101px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.login input{
+    border: 0px;
+    height: 33px;
+    width: 260px;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: 12px;
+    background: #FAFAFA;
+}
+
+.login input:focus{
+    outline: none;
+}
+
+.password input{
+        border: 0px;
+    height: 33px;
+    width: 260px;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: 12px;
+    background: #FAFAFA;
+}
+
+.password input:focus{
+    outline: none;
+}
+
+.sign_in button{
+    width: 260px;
+    height: 30px;
+    color: white;
+    background: #B2DFFC;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.window_el button{
+    height: 20px;
+    width: 145px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    align-self: center;
+    background: white;
+
+}
+
+.window_el a{
+    text-decoration: none;
+    color: #385185;
+}
+
+.icon{
+    position: relative;
+    top: 2px;
+    color: #385185;
+}
+
+.forget_password{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forget_password a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: 'Grand Hotel';
+    
+}
+
+
+.app{
+    width: 450px;
+    height: 620px;
+    background: url(img/43cc71bb1b43.png);
+}
+
+
+
+
+.window2{
+    border: 1px solid #DBDBDB;
+    height: 65px;
+    width: 350px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Grand Hotel';
+    font-weight: none;
+
+}
+
+.window2 a{
+    text-decoration: none;
+    color: #8CA6F6;
+    margin-left: 3px;
+}
+
+.window3{
+    width: 350px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.img_box{
+  position: relative;
+
+    top: 312px;
+    left: 45px;
+
+}
+
+
+.img_box img{
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+ margin: auto;
+    
+}
+
+
+
+.img5{ 
+animation-name: move;
+ animation-duration: 30s;
+ animation-iteration-count: infinite;
+
+}
+
+
+@keyframes move{
+    100%{
+        opacity: 1;
+    }
+    
+    99%{
+        opacity: 0;
+    }
+    
+    30%{
+        opacity: 0
+    }
+    
+    
+    10%{
+        opacity: 1;
+    }
+    
+    
+    0%{
+        opacity: 1;
+    }
+    
+    
+}
+
+.img4{
+    animation-name: move;
+ animation-duration: 30s;
+    animation-delay: 7s;
+ animation-iteration-count: infinite;
+}
+
+.img3{
+    animation-name: move;
+ animation-duration: 30s;
+animation-delay: 13s;
+ animation-iteration-count: infinite;
+}
+
+.img2{
+    animation-name: move;
+ animation-duration: 30s;
+animation-delay: 20s;
+ animation-iteration-count: infinite;
+}
+
+.img1{
+    animation-name: move;
+    animation-duration: 30s;
+    animation-delay: 25s;
+ animation-iteration-count: infinite;
+}
+
+.window3 img{
+    width: 135px;
+    height: 40px;
+    
+}
+
+.window3 span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+    
+.el_footer{
+    position: absolute;
+    bottom: 95px;
+    font-size: 13px;
+    width: 95%;
+    height: 30px;    
+
+}
+
+.el_footer1{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.el_footer1 div{
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+ .el_footer2{
+ display: flex;
+    flex-direction: row;
+     justify-content: center;
+         margin-top: 10px;
+         flex-wrap: wrap;
+}
+
+.el_footer2 div{
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+ .el_footer3{
+ display: flex;
+    flex-direction: row;
+     justify-content: center;
+         margin-top: 20px;
+     text-decoration: none;
+
+}
+
+.el_footer1 a{
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+
+.el_footer2 a{
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+.el_footer3 a{
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+
+.el_footer3 div{
+    margin-left: 15px;
+}
+

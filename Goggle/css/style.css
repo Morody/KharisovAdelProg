@@ -1,0 +1,193 @@
+.sign{
+    float: left;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.nav_element{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav_element div{
+   margin-left: 10px; 
+}
+
+
+.nav_element a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.icon-menu-custom{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.icon-avatar-custom{
+    font-size: 20px;
+}
+
+.el_1:hover{
+    text-decoration: underline;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+.background_menu{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.background_menu:hover{
+  background: #EEEEEF;
+}
+
+
+.icon-icons-custom{
+    
+    font-size: 20px;
+    color: lightgray;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 12px;
+        float: left;
+    
+}
+.search input{
+    border: 0px;
+    display: flex;
+    margin: 5px 0px 5px 50px;
+    height: 35px;
+    width: 500px;
+}
+
+.search input:focus{
+ outline: none;
+    
+}
+
+.search a{
+    text-decoration: none;
+}
+
+.search{
+    width: 586px;
+    height: 48px;
+    border: 2px solid #EEEEEF;
+    border-radius: 50px;
+}
+
+.search:hover{
+    box-shadow: 2px 3px #EEEEEF;
+}
+
+
+.main{
+    height: 500px;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.background_el_footer{
+    height: 48px;    
+    background: #F2F2F2;
+}
+
+.el_footer{
+    font-size: 15px;
+    padding: 15px 20px;
+    color: rgba(0,0,0,.54);
+}
+
+.el_menu{
+    display: flex;
+    justify-content: center;
+    word-spacing: 3px;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
+  
+.el_menu23{
+    display: flex;
+}
+
+.el_menu2{
+    word-spacing: 3px;
+}
+
+.el_menu3{
+/*      text-align: end;*/
+    word-spacing: 3px;
+    align-items: flex-end;
+    margin-left: 470px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+     color: rgba(0,0,0,.54);
+}
+
+.menu a:nth-child(n+2){
+        margin-left: 15px;
+}
+
+.menu{
+    background-color: #F2F2F2;
+    padding: 15px 10px;
+    
+
+}
+
+.footer_1{
+        bottom: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.el_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.el_main1{
+    margin-left: 25px;
+}
+
+.el_main2{
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.button{
+    background: #F8F9FA;
+    text-decoration: none;
+     border: 0px; 
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+}
+
+.button:hover{
+    border: 2px solid #EEEEEF;
+    box-shadow: 1px 2px #EEEEEF;
+        border-radius: 10px;
+
+    
+}
